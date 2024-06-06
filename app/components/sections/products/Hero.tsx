@@ -8,11 +8,13 @@ import { RiShieldUserLine } from "react-icons/ri";
 export default function Hero() {
   return (
     <div>
-      <div className="flex shadow-md bg-neutral-100 ">
-        <div className="pt-36 pl-64 pr-36 pb-28 w-1/2">
-          <div className="text-5xl font-semibold">InVision IBS</div>
+      <div className="flex shadow-md bg-teal-900">
+        <div className="3xl:pt-36 3xl:pl-64 3xl:pr-36 3xl:pb-28 pt-28 pl-44 pr-14 pb-12 w-1/2">
+          <div className=" lg:text-5xl 3xl:text-6xl font-bold text-neutral-200">
+            InVision IBS
+          </div>
           <br />
-          <div className="text-lg">{TAGLINE}</div>
+          <div className="text-lg text-neutral-200">{TAGLINE}</div>
           <br />
           <button className="flex bg-gradient-to-r from-green-700 to-sky-600 hover:from-green-600 hover:to-sky-500 text-white font-bold py-4 px-12 rounded">
             <GoDiscussionClosed className="mr-3" size={28} />
@@ -21,9 +23,9 @@ export default function Hero() {
         </div>
         <div className="relative">
           <div className="absolute">
-            <div className="flex mt-24 transform-cube">
+            <div className="cube flex 3xl:mt-24 mt-12 transform-cube">
               <div>
-                <div className="border h-72 w-64 mr-5 mb-5 first:bg-green-700 shadow-xl">
+                <div className="border border-neutral-500 h-72 w-64 mr-5 mb-5 first:bg-green-700 shadow-xl">
                   <div className="mt-12">
                     <div className="text-white text-5xl text-center">ESS</div>
                     <div className="text-center text-white text-sm">
@@ -34,7 +36,7 @@ export default function Hero() {
                     </div>
                   </div>
                 </div>
-                <div className="border h-72 w-64 mr-5 mb-5 bg-sky-600 shadow-xl">
+                <div className="border border-neutral-500 h-72 w-64 mr-5 mb-5 bg-sky-600 shadow-xl">
                   <div className="mt-12">
                     <div className="text-white text-5xl text-center">FMS</div>
                     <div className="text-center text-white text-sm">
@@ -47,7 +49,7 @@ export default function Hero() {
                 </div>
               </div>
               <div>
-                <div className="border h-72 w-64 mb-5 bg-sky-600 shadow-2xl">
+                <div className="border border-neutral-500 h-72 w-64 mb-5 bg-sky-600 shadow-2xl">
                   <div className="mt-12">
                     <div className="text-white text-5xl text-center">SCM</div>
                     <div className="text-center text-white text-sm">
@@ -58,7 +60,7 @@ export default function Hero() {
                     </div>
                   </div>
                 </div>
-                <div className="border h-72 w-64 mb-5 bg-green-700 shadow-2xl">
+                <div className="border border-neutral-500 h-72 w-64 mb-5 bg-green-700 shadow-2xl">
                   <div className="mt-12">
                     <div className="text-white text-5xl text-center">HRMS</div>
                     <div className="text-center text-white text-sm">

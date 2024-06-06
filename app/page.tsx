@@ -1,11 +1,11 @@
-import Hero from "./components/sections/Hero";
-import Services from "./components/sections/Services";
+import Hero from "./components/sections/products/Hero";
+import WhatIs from "./components/sections/products/What";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Services />
+      <WhatIs />
     </main>
   );
 }

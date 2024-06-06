@@ -23,3 +23,11 @@
 .transform-cube {
   transform: rotate3d(1, -1, 0, 30deg) rotate(-2deg);
 }
+
+.cube {
+  transition: transform 0.3s ease;
+}
+
+.cube:hover {
+  transform: rotate3d(-2, -1, 0, -30deg) rotate(2deg);
+}
