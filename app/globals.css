@@ -31,3 +31,24 @@
 .cube:hover {
   transform: rotate3d(-2, -1, 0, -30deg) rotate(2deg);
 }
+
+.rounded-tr-100px {
+  border-top-right-radius: 100px;
+}
+
+.rounded-bl-100px {
+  border-bottom-left-radius: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the thumb */
+  border-radius: 3px; /* Roundness of the thumb */
+}

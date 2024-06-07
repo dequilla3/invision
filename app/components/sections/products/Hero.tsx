@@ -8,7 +8,7 @@ import { RiShieldUserLine } from "react-icons/ri";
 export default function Hero() {
   return (
     <div>
-      <div className="flex shadow-md bg-teal-900">
+      <div className="flex">
         <div className="3xl:pt-36 3xl:pl-64 3xl:pr-36 3xl:pb-28 pt-28 pl-44 pr-14 pb-12 w-1/2">
           <div className=" lg:text-5xl 3xl:text-6xl font-bold text-neutral-200">
             InVision IBS
